@@ -1,0 +1,138 @@
+body{
+    background-color: #1f202d;
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.design{
+    height: 100dvh;
+    width: 52dvw;
+    border-radius: 0 50% 50% 0;
+    background-color: #111219;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+}
+
+.navbar{
+    margin-top: 0;
+}
+
+.navbar-nav{
+    gap: 1rem;
+}
+
+.navbar-brand{
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    margin-right: 1.5rem;
+}
+
+.greeting{
+    color: #D9D9D9;
+    margin-top: 0.75rem;
+    margin-right: 1.5rem;
+}
+
+.container-accounts{
+    height: 75dvh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 6px #000000, 4px 4px 20px 6px rgba(0, 0, 0, 0.19);
+    margin-top: 2.25rem;
+}
+
+.heading{
+    color: #bcb8b8;
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
+}
+
+.sub-heading{
+    color: #bcb8b8;
+}
+
+.description{
+    color: #696767;
+    font-size: 1.25rem;
+    margin-top: 3.5rem;
+}
+
+.details{
+    margin-bottom: 1rem;
+  }
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+.accounts-button{
+    background-color: #cbc9d0;
+    width: 18rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px 2px #292829 inset, 2px 2px 8px 4px rgba(0, 0, 0, 0.19);
+    border: 0;
+    
+}
+
+.light-mode{
+    background-color: #636b83;
+    /* background-color: #8f9abc; */
+}
+
+.heading-light-mode{
+    color: #000;
+}
+
+.description-light-mode{
+    color: #000;
+}
+
+.accounts-button-light-mode{
+    background-color: #1e1e1e;
+    color: #D9D9D9
+}
+
+.navbar-light-mode{
+    color: #000;
+}
+
+.toggle-button{
+    background-color: #cbc9d0;
+    width: 8rem;
+    padding: 0.3rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px 2px #292829 inset, 2px 2px 8px 4px rgba(0, 0, 0, 0.19);
+    border: 0;
+}
+
+.toggle-button-light-mode{
+    background-color: #1e1e1e;
+    color: #D9D9D9
+}
+
+.sub-heading-light-mode{
+    color: #000;
+}
+
+.img-light{
+    box-shadow: 2px 2px 8px 2px #000, 4px 4px 20px 6px rgba(0, 0, 0, 0.19);
+}
