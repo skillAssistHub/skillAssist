@@ -1,19 +1,20 @@
 document.querySelector(".toggle-button").addEventListener("click", function(){
     document.querySelector("body").classList.toggle("light-mode");
-    document.querySelector(".navbar-brand").classList.toggle("navbar-light-mode");
+    document.querySelector(".navbar").classList.toggle("navbar-light-mode");
     document.querySelector(".heading").classList.toggle("heading-light-mode");
     document.querySelector(".description").classList.toggle("description-light-mode");
-    document.querySelector(".teacher-button").classList.toggle("teacher-button-light-mode");
-    document.querySelector(".toggle-button").classList.toggle("toggle-button-light-mode");
+    document.querySelector(".teacher-button").classList.toggle("button-light-mode");
+    document.querySelector(".toggle-button").classList.toggle("button-light-mode");
+    document.querySelector(".btn-light").classList.toggle("button-light-mode");
     document.querySelector(".img").classList.toggle("img-light");
     const element = document.querySelector('.navbar-brand');
-    element.style.color = element.style.color === 'black' ? 'white' : 'black';
+    element.style.color = element.style.color === 'white' ? 'black' : 'white';
     const element2 = document.querySelector('.nav-link');
-    element2.style.color = element2.style.color === 'black' ? 'grey' : 'black';
+    element2.style.color = element2.style.color === 'grey' ? 'black' : 'grey';
     const element3 = document.querySelector('.focus');
-    element3.style.color = element3.style.color === 'black' ? 'grey' : 'black';
+    element3.style.color = element3.style.color === 'grey' ? 'black' : 'grey';
     const element4 = document.querySelector('.greeting');
-    element4.style.color = element4.style.color === 'black' ? 'grey' : 'black';    
+    element4.style.color = element4.style.color === 'grey' ? 'black' : 'grey';    
 });
 
 const btnOpenModal = document.querySelector(".teacher-button");
